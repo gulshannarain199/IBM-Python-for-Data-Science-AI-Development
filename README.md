@@ -25,6 +25,17 @@ This directory focuses on containerized data structures required for handling co
 
 ---
 
+### ⚡ Module 3: Python Programming Fundamentals
+This directory covers program flow, modularization, error safety, and object-oriented architecture required for dynamic application design.
+
+*   **`01_conditions_branching.py`**: Automated pipeline validation system applying relational operators, composite logical checks (`and`, `or`, `not`), and nested decisions.
+*   **`02_loops.py`**: Iterative data processing engine featuring `for` loops, `range()`, `enumerate()`, flow disruption (`break`, `continue`), and state-driven `while` loops.
+*   **`03_functions.py`**: Modular metric calculation toolkit demonstrating scope isolation, positional/keyword parameters, default arguments, and variable inputs (`*args`, `**kwargs`).
+*   **`04_exception_handling.py`**: Robust error recovery framework managing `try`-`except`-`else`-`finally` blocks, standard exception handling (`ZeroDivisionError`, `FileNotFoundError`), and custom raises.
+*   **`05_objects_classes.py`**: Object-Oriented ETL monitor structuring custom classes, attribute initializers (`__init__`), instance methods, state updates, and object inspection via `dir()`.
+
+---
+
 ## 🛠️ Environment Configuration & Deployment
 *   **IDE Context**: GitHub Codespaces / Visual Studio Code (Cloud Architecture)
 *   **Language Runtime**: Python 3 interpreter environment
