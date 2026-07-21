@@ -36,6 +36,16 @@ This directory covers program flow, modularization, error safety, and object-ori
 
 ---
 
+### 📊 Module 4: Working with Data in Python
+This directory houses foundational data processing toolkits, covering raw file I/O operations, structured tabular manipulation with Pandas, and high-performance vector arithmetic with NumPy.
+
+*   **`01_reading_writing_files.py`**: File I/O operations using Python context managers (`with open()`), demonstrating read modes (`'r'`, `'w'`, `'a'`), stream parsing (`read()`, `readline()`, `readlines()`), and automated file cleanup.
+*   **`02_pandas_basics.py`**: Structured data analysis toolkit introducing Pandas `Series` and `DataFrames`, structural inspection (`head()`, `info()`, `describe()`), boolean filtering, and explicit indexing via `.loc[]` vs `.iloc[]`.
+*   **`03_numpy_basics.py`**: High-performance scientific computing script covering 1D and 2D NumPy arrays (`ndarray`), array inspection attributes (`shape`, `ndim`, `dtype`), mathematical broadcasting, vectorization, and matrix manipulation.
+
+---
+
 ## 🛠️ Environment Configuration & Deployment
 *   **IDE Context**: GitHub Codespaces / Visual Studio Code (Cloud Architecture)
 *   **Language Runtime**: Python 3 interpreter environment
+*   **Core Libraries**: `pandas`, `numpy`
