@@ -45,7 +45,16 @@ This directory houses foundational data processing toolkits, covering raw file I
 
 ---
 
+### 🌐 Module 5: APIs and Data Collection
+This directory highlights external data ingestion architectures, covering HTTP requests via REST APIs, web scraping with BeautifulSoup, and multi-format data persistence.
+
+*   **`01_simple_apis.py`**: Client-side HTTP request engine utilizing the `requests` library to fetch public REST API endpoints, validate HTTP status codes, and load JSON payloads into Pandas DataFrames.
+*   **`02_web_scraping.py`**: Web intelligence script demonstrating HTML document fetching, status monitoring, and BeautifulSoup parsing techniques to extract structural elements and text node content.
+*   **`03_working_with_files.py`**: End-to-end data pipeline script parsing live API JSON responses and persisting structured records directly into local storage formats (`.json` and `.csv`).
+
+---
+
 ## 🛠️ Environment Configuration & Deployment
 *   **IDE Context**: GitHub Codespaces / Visual Studio Code (Cloud Architecture)
 *   **Language Runtime**: Python 3 interpreter environment
-*   **Core Libraries**: `pandas`, `numpy`
+*   **Core Libraries**: `pandas`, `numpy`, `requests`, `beautifulsoup4`
